@@ -9,6 +9,8 @@ export default function Navbar(){
             <ul>
                 <CustomLink to="/sales">Sales</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
+                <CustomLink to="/imprint">Imprint</CustomLink>
+                <CustomLink to="/contact">Contact</CustomLink>
             </ul>
         </nav>
         </>
