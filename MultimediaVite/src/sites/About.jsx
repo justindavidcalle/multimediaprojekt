@@ -1,6 +1,8 @@
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import brunnenZüri from '../images/BrunnenZüri2.jpg'
+import Footer from '../components/Footer'
+import AboutUs from '../components/AboutUs'
 
 export default function About(){
 
@@ -14,6 +16,12 @@ export default function About(){
             url="/"
             btnClass="hide"
         />
+        
+        <AboutUs />
+
+        <Footer />
+
+
         <h1>About</h1>
         </>
     )

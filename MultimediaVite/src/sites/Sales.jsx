@@ -1,6 +1,8 @@
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import opernhaus from '../images/Opernhaus.jpg'
+import Footer from '../components/Footer'
+import Trip from '../components/Trip'
 
 export default function Sales(){
 
@@ -14,6 +16,8 @@ export default function Sales(){
             url="/"
             btnClass="hide"
         />
+        <Trip />
+        <Footer />
         <h1>Sales</h1>
         </>
     )
