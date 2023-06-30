@@ -29,8 +29,6 @@ export default function Navbar(){
                 
                 <CustomLink to="/contact" className="nav-links"><i class="fa-solid fa-user"></i>Kontakt</CustomLink>
                 
-                
-                
                 <button>Sign up</button>
             </ul>
         </nav>
