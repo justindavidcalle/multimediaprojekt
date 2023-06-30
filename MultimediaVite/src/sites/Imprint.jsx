@@ -13,7 +13,6 @@ export default function Imprint(){
             url="/"
             btnClass="hide"
         />
-        <h1>Imprint</h1>
         </>
     )
 }

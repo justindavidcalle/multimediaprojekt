@@ -18,8 +18,9 @@ export default function Contact(){
             btnClass="hide"
         />
         <ContactForm />
+
+        
         <Footer />
-        <h1>Contact</h1>
         </>
     )
 }

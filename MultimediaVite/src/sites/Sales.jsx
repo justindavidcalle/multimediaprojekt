@@ -18,7 +18,6 @@ export default function Sales(){
         />
         <Trip />
         <Footer />
-        <h1>Sales</h1>
         </>
     )
 }

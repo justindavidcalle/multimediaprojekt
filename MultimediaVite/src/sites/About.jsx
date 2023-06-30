@@ -21,8 +21,6 @@ export default function About(){
 
         <Footer />
 
-
-        <h1>About</h1>
         </>
     )
 }
