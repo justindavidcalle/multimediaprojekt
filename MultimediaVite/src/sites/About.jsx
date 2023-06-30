@@ -12,7 +12,7 @@ export default function About(){
         <Hero 
             cName="hero-mid"
             heroImg={brunnenZüri}
-            title="About"
+            title="Über uns"
             url="/"
             btnClass="hide"
         />

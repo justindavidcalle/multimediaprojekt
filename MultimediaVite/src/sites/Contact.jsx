@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import züriengel from '../images/ZüriEngel.jpg'
 import Footer from '../components/Footer'
 import ContactForm from '../components/Contactform'
+import ContactUs from '../components/ContactUs'
 
 
 export default function Contact(){
@@ -13,10 +14,13 @@ export default function Contact(){
         <Hero 
             cName="hero-mid"
             heroImg={züriengel}
-            title="Contact"
+            title="Kontakte"
             url="/"
             btnClass="hide"
         />
+
+        <ContactUs />        
+
         <ContactForm />
 
         

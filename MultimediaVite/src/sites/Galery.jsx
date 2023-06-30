@@ -11,7 +11,7 @@ export default function Galery(){
         <Hero 
             cName="hero-mid"
             heroImg={fontänen}
-            title="Galery"
+            title="Galerie"
             url="/"
             btnClass="hide"
         />
