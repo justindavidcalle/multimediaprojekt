@@ -12,14 +12,14 @@ export default function Destination(){
     return(
         <>
         <div className="destination">
-            <h1>Popular Destinations</h1>
-            <p>Tours give you the opportunity to see a lot, within a time frame.</p>
+            <h1>Aktuelles</h1>
+            <p>Dies erwartet Sie zurzeit in Zürich!</p>
         </div>
 
         <DestinationData 
             className="first-des"
-            heading="Taal Volcano, Batangas"
-            text="One of the most iconic views in Luzon, Mt. Taal boasts a volcano inside a lake inside an island. if you fancy a closer look, the hike up to the crater is a mere 45 minutes, and is easy enough for beginners. Guides will assist you most of the way, and you'll see the peculiar environment found on an active volcano, including volcanic rocks and steam vents. The hike can be dusty and hot, so plan for an early morning trip, and then unwind with some bulalo before heading back home!"
+            heading="Der Knie ist angekommen!"
+            text="Erleben Sie das faszinierende Spektakel des Zirkus Knie! Tauchen Sie ein in eine Welt voller Magie, Akrobatik und atemberaubender Tierdarbietungen. Genießen Sie unvergessliche Momente und lassen Sie sich von der Zirkusfamilie Knie verzaubern. Buchen Sie jetzt Ihre Tickets für eine unvergessliche Zirkusshow! Zirkus Knie - Buchen Sie jetzt noch eine Tour und wir planen einen Tag im Zirkus!"
             img1={knie}
             img2={knielogo}
         />
@@ -27,8 +27,8 @@ export default function Destination(){
         
         <DestinationData 
             className="first-des-reverse"
-            heading="Historik"
-            text="One of the most iconic views in Luzon, Mt. Taal boasts a volcano inside a lake inside an island. if you fancy a closer look, the hike up to the crater is a mere 45 minutes, and is easy enough for beginners. Guides will assist you most of the way, and you'll see the peculiar environment found on an active volcano, including volcanic rocks and steam vents. The hike can be dusty and hot, so plan for an early morning trip, and then unwind with some bulalo before heading back home!"
+            heading="Die geheime Historik hinter Zürich"
+            text="Entdecken Sie die faszinierende Geschichte von Zürich auf einer unvergesslichen Tour! Begleiten Sie uns auf einem spannenden Streifzug durch die Jahrhunderte und tauchen Sie ein in die Geheimnisse dieser pulsierenden Stadt. Unsere kenntnisreichen Guides werden Sie mit fesselnden Geschichten und interessanten Anekdoten verzaubern. Buchen Sie noch heute Ihre historische Tour und erleben Sie Zürich wie nie zuvor! "
             img1={statue}
             img2={arnold}
         />

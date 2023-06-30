@@ -13,10 +13,10 @@ export default function Landingpage(){
         <Hero 
             cName="hero"
             heroImg={züriWappen}
-            title="Your Story Your Journey"
-            text="Choose Your Favourite Destination"
-            buttonText="Travel Plan"
-            url="/"
+            title="Zürich lebt!"
+            text="Erleben Sie das Beste mit uns!"
+            buttonText="Reise teilnehmen"
+            url="/sales"
             btnClass="show"
         />
 

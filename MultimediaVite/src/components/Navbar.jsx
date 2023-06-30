@@ -13,18 +13,18 @@ export default function Navbar(){
     return(
         <>
         <nav className="NavbarItems">
-            <h1 className="navbar-logo">Trippy</h1>
+            <Link to="/" className="navbar-logo"><h1 >ZüriGuide</h1></Link>
+            
 
             <div className="menu-icons" onClick={handleClick}>
                 <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
 
             <ul className={clicked ? "nav-menu active" : "nav-menu"}>
-                <Link to="/" className="nav-links"><i class="fa-solid fa-house"></i>Home</Link>
-                <CustomLink to="/sales" className="nav-links">Sales</CustomLink>
-                <CustomLink to="/about" className="nav-links">About</CustomLink>
-                <CustomLink to="/imprint" className="nav-links">Imprint</CustomLink>
-                <CustomLink to="/contact" className="nav-links">Contact</CustomLink>
+                <CustomLink to="/sales" className="nav-links"><i class="fa-solid fa-map"></i>Touren</CustomLink>
+                <CustomLink to="/about" className="nav-links"><i class="fa-solid fa-circle-info"></i>About</CustomLink>
+                <CustomLink to="/contact" className="nav-links"><i class="fa-solid fa-user"></i>Contact</CustomLink>
+                <CustomLink to="/galery" className="nav-links">Galery</CustomLink>
                 <button>Sign up</button>
             </ul>
         </nav>

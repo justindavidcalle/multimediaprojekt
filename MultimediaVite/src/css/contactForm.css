@@ -28,6 +28,14 @@
     border: 1px solid #2a2a2a;
 }
 
+.form-container button{
+    background: #00a1ff;
+}
+
+.form-container button:hover{
+    background: #2a2a2a;
+}
+
 @media screen and (max-width: 850px) {
     .form-container{
         margin: 4rem 2rem;
@@ -36,6 +44,6 @@
     .form-container form{
         padding-top: 2rem;
         width: 90%;
-        
+
     }
 }

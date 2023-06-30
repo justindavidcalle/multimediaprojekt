@@ -8,26 +8,26 @@ export default function Trip(){
     return(
         <>
         <div className='trip'>
-            <h1>Recent Trips</h1>
-            <p>You can discover unique destinations using Google Maps</p>
+            <h1>Reisevorschläge</h1>
+            <p>Hier sind unsere beliebteste und bestbewerteste Reisen!</p>
 
             <div className='tripcard'>
                 <TripData 
                     image={gucci}
-                    heading="Trip with shopping"
-                    text="Shop 'til you drop in Zurich! With its luxury boutiques on Bahnhofstrasse, trendy fashion in the Kreis 5 district, and vibrant markets like the Freitag Tower, this Swiss city is a shopaholic's paradise. Discover Swiss watches, stylish fashion, and local crafts while exploring Zurich's charming streets."
+                    heading="Shoppingreise"
+                    text="Shoppen bis zum Umfallen in Zürich! Mit ihren Luxusboutiquen in der Bahnhofstraße, der trendigen Mode im Kreis 5 und den pulsierenden Märkten wie dem Freitagsturm ist diese Schweizer Stadt ein Paradies für Shopping-Fans. Entdecken Sie Schweizer Uhren, stilvolle Mode und lokales Kunsthandwerk bei einem Streifzug durch die charmanten Straßen von Zürich."
                 />
 
                 <TripData 
                     image={antikerHydrant}
-                    heading="Trip with shopping"
-                    text="Shop 'til you drop in Zurich! With its luxury boutiques on Bahnhofstrasse, trendy fashion in the Kreis 5 district, and vibrant markets like the Freitag Tower, this Swiss city is a shopaholic's paradise. Discover Swiss watches, stylish fashion, and local crafts while exploring Zurich's charming streets."
+                    heading="Geschichtsreise"
+                    text="Entdecken Sie Zürichs faszinierende Geschichte auf unserer Geschichtstour! Tauchen Sie ein in vergangene Zeiten, begleitet von unseren Guides. Erleben Sie bedeutende Ereignisse, historische Stätten und die einzigartige Atmosphäre der Stadt. Buchen Sie jetzt Ihre Tour und entdecken Sie Zürichs Geschichte!"
                 />
 
                 <TripData 
                     image={see}
-                    heading="Trip with shopping"
-                    text="Shop 'til you drop in Zurich! With its luxury boutiques on Bahnhofstrasse, trendy fashion in the Kreis 5 district, and vibrant markets like the Freitag Tower, this Swiss city is a shopaholic's paradise. Discover Swiss watches, stylish fashion, and local crafts while exploring Zurich's charming streets."
+                    heading="Wassertour"
+                    text="Erleben Sie den Zauber des Zürichsees auf unserer Seetour! Genießen Sie die atemberaubende Schönheit des Sees und entdecken Sie seine malerischen Uferstädte. Unsere erfahrenen Guides begleiten Sie auf einer unvergesslichen Reise entlang des Sees und teilen faszinierende Geschichten über seine Geschichte und Kultur. Buchen Sie jetzt Ihre Tour und lassen Sie sich vom Zürichsee verzaubern!"
                 />
 
             </div>

@@ -10,8 +10,8 @@ export default function Footer(){
         <div className='footer'>
             <div className='top'>
                 <div>
-                    <h1>Trippy</h1>
-                    <p>Choose your favourite Destination.</p>
+                    <h1>ZüriGuide</h1>
+                    <p>Impressum</p>
                 </div>
                 <div>
                     <Link to="/"> <i className='fa-brands fa-facebook-square'></i></Link>

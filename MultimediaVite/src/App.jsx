@@ -6,6 +6,7 @@ import Sales from './sites/Sales'
 import Imprint from './sites/Imprint';
 import Contact from './sites/Contact'
 import { Route, Routes } from "react-router-dom"
+import Galery from './sites/Galery';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/imprint" element={<Imprint />} />
           <Route path="/contact" element={<Contact />} />
-        
+          <Route path="/galery" element={<Galery />} />
         </Routes>
        </div>
     </>

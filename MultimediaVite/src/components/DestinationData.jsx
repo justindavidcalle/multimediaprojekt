@@ -1,8 +1,5 @@
 import '../css/destination.css'
-import knie from '../images/Knie.jpg'
-import knielogo from '../images/KnieLogo.jpg'
-import statue from '../images/Statue.jpg'
-import arnold from '../images/ArnoldBürkel.jpg'
+
 
 export default function DestinationData(props){
 
