@@ -27,7 +27,6 @@ Ein weiterer Grund, warum ich mich für die Adobe Programme entschieden habe, is
 ### Idee für Firma festlegen
 Als erstes habe ich mir mit einem Brainstorming gemacht, um zu sehen, in welche Richtung die Firma gehen soll. Dies habe ich mich mit Miro erstellt. Miro ist ein Programm, mit dem man effizient für Porjekte arbeiten kann. Alles rund um Projektmanagement ist einfach mit Miro umzusetzen. Schliesslich habe ich mich auf die Idee geeinigt, etwas über Zürich herzustellen. Ich arbeite für die ZüriGuide GmbH und soll eine Website erstellen, die den Tourismus fördern möchte, sowie auch ihre Touren attraktiver machen. Somit passen Fotos zu Orten, welche man während der Tour sieht. Sie bieten also Touren für Touristen, damit sie die Besonderheiten Zürichs betrachten können und ihnen schöne Orte zeigen, wo Fotos gemacht werden kann. Um das in einer Website deutlich Verbildlichen zu können, habe ich eine Anfangsstruktur aufgebaut, in welcher die Merkmale nur grob angezeigt werden, wenn, was und wie wird es angezeigt und spielen eine wichtige Rolle. Auch habe ich eine Anfangsvorstellung von dieser Website erhalten und ich konnte nun ein Wireframe erstellen, welches grob die Aspekte anzeigt, jedoch ohne grossen Inhalt.
 
-![Nutzwertanalyse](./externalImages/Nutzwertanalyse.png)
 ![Landingpage](./externalImages/Desktop1.png)
 ![ÜberUns](./externalImages/Desktop2.png)
 ![Kontaktformular](./externalImages/Desktop3.png)
