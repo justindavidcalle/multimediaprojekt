@@ -12,7 +12,7 @@ export default function Sales(){
         <Hero 
             cName="hero-mid"
             heroImg={opernhaus}
-            title="Service"
+            title="Touren"
             url="/"
             btnClass="hide"
         />

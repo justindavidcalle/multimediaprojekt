@@ -24,31 +24,10 @@ export default function Footer(){
             <div className='bottom'>
                 <div>
                     <h4>Project</h4>
-                    <Link to="/">Changelog</Link>
-                    <Link to="/">Status</Link>
-                    <Link to="/">License</Link>
-                    <Link to="/">All Versions</Link>
-                </div>
-                <div>
-                    <h4>Community</h4>
-                    <Link to="/">Changelog</Link>
-                    <Link to="/">Status</Link>
-                    <Link to="/">License</Link>
-                    <Link to="/">All Versions</Link>
-                </div>
-                <div>
-                    <h4>Help</h4>
-                    <Link to="/">Changelog</Link>
-                    <Link to="/">Status</Link>
-                    <Link to="/">License</Link>
-                    <Link to="/">All Versions</Link>
-                </div>
-                <div>
-                    <h4>Others</h4>
-                    <Link to="/">Changelog</Link>
-                    <Link to="/">Status</Link>
-                    <Link to="/">License</Link>
-                    <Link to="/">All Versions</Link>
+                    <Link to="/">Projekt auf Github</Link>
+                    <Link to="/">Author: Justin Calle</Link>
+                    <Link to="/">Erstellt: 30.6.2023</Link>
+                    <Link to="/">Version: 1.1.0</Link>
                 </div>
             </div>
         </div>

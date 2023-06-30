@@ -24,7 +24,7 @@ export default function Navbar(){
                 <CustomLink to="/sales" className="nav-links"><i class="fa-solid fa-map"></i>Touren</CustomLink>
                 <CustomLink to="/about" className="nav-links"><i class="fa-solid fa-circle-info"></i>Über Uns</CustomLink>
                 <CustomLink to="/contact" className="nav-links"><i class="fa-solid fa-user"></i>Kontakt</CustomLink>
-                <CustomLink to="/galery" className="nav-links">Galerie</CustomLink>
+                <CustomLink to="/galery" className="nav-links"><i class="fa-solid fa-image"></i>Galerie</CustomLink>
                 <button>Sign up</button>
             </ul>
         </nav>
