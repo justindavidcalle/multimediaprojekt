@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import züriengel from '../images/ZüriEngel.jpg'
 import Footer from '../components/Footer'
-import ContactForm from '../components/Contactform'
+import ContactForm from '../components/ContactForm.jsx'
 import ContactUs from '../components/ContactUs'
 
 
