@@ -1,8 +1,8 @@
 FROM node:20
 WORKDIR /app
-COPY package.json .
+COPY ./MultimediaVite/package.json .
 RUN npm install
 RUN npm i esbuild
-COPY . .
+COPY ./MultimediaVite .
 EXPOSE 5173
 CMD ["npm", "run", "dev"]
