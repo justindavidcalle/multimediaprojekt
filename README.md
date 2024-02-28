@@ -77,3 +77,11 @@ Alle Fotos wurden erfolgreich implementiert, welche ich für die Website vorgese
 ## Fazit
 
 Meiner Meinung nach ist es ein gelungenes Projekt, welches sehr auf die Website geachtet hat. Schade ist, dass Sie nicht vollständig ausgebaut wurde, welches aber klar war mit dem kurzen Zeitfenster, dass wir hatten, wo nebenbei noch andere Projekte und Test abzugeben war. Ich würde gerne nochmal so ein Projekt beschreiten, mit mehr Ahnung und Wissen. Nichtsdestotrotz war Github ein grosses Problem, was mich nervt, denn es hat viel Zeit gekostet, dieses Problem zu fixen. 
+
+
+## Auf Docker Hub hochladen
+
+1. Lokalen Container erstellt
+2. Dockerhub regristriert
+3. Token erstellt und für Github verwendet
+4. yaml file erstellt in Github Actions (Anleitung auf Docker Hub Docs)
