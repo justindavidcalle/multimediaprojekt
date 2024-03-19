@@ -85,7 +85,52 @@ Meiner Meinung nach ist es ein gelungenes Projekt, welches sehr auf die Website 
 | ------------ | ----------- | 
 | Justin Calle | 13.03.2024  |
 
+---
 
 ## Github Actions mit Docker Hub
 
+1. Zuerst erstellte ich ein Docker image und kopierte dies von einem bereits vorhandenen Projekt
+
+2. Als nächstes versuchte ich das Projekt zuerst Lokal laufen zu lassen.
+
+3. Danach informierte ich mich über das pushen von einem docker image in docker hub
+
+4. Access Token auf Docker-Hub erstellt und ein Yaml-File erstellt mit Hilfe von folgender Dokumentation: https://docs.docker.com/build/ci/github-actions/
+
+5. Probleme behoben:
+* Dockerfile nicht gefunden -> Filepath auf Yaml
+* package.json nicht gefunden -> Filepath von COPY im Image auf Repository angepasst
+
 ![](/screenshots/Screenshot1.png)
+
+![](/screenshots/Screenshot2.png)
+
+![](/screenshots/Screenshot3.png)
+
+![](/screenshots/Screenshot4.png)
+
+![](/screenshots/Screenshot6.png)
+
+![](/screenshots/Screenshot5.png)
+
+---
+
+## Github Container Registry
+
+1. Ich habe ChatGpt gefragt:
+    Wandle mir das Yaml File um, sodass es in github container registry pushed
+2. Durch das neue Dockerfile habe ich erkennt, dass es keine grossen Abweichungen hat und ein Github Access Token erstellt werden muss
+
+3. Github Access Token erstellt und wieder ein    Secret erstellt
+
+4. Probleme behoben:
+* Yaml variabeln nicht korrekt erstellt
+* Tag-Probleme durch Uppercase
+
+![](/screenshots/Screenshot7.png)
+
+![](/screenshots/Screenshot8.png)
+
+![](/screenshots/Screenshot9.png)
+
+![](/screenshots/Screenshot10.png)
